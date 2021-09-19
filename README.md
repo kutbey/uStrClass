@@ -14,9 +14,9 @@ Python'da **sort** işlemlerinde **str** tipi kelimeler sıralanırken bazı kel
 
 ## Örnekler (Examples)
 
-Türk alfabesindeki küçük harfler***(Lowercase letters of the Turkish alphabet)***: **abcçdefgğhıijklmnoöprsştuüvyz**
+Türk alfabesindeki küçük harfler(Lowercase letters of the Turkish alphabet):**abcçdefgğhıijklmnoöprsştuüvyz**
 
-Türk alfabesindeki büyük harfler***(Uppercase letters of the Turkish alphabet)***: **ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ**
+Türk alfabesindeki büyük harfler(Uppercase letters of the Turkish alphabet):**ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ**
 
 Dönüşüm problemlerine bazı örnekler(Some examples of conversion problems:): 
 
