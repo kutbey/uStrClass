@@ -4,7 +4,7 @@
 
 Python programlama dili, farklı dillere ait harfleri, büyük veya küçük harflere dönüştürürken bazı sorunlar ortaya çıkmaktadır. Büyük harf ve küçük harf çevirmelerindeki sorunların çözmek  amacı ile uStr sınıfı yazılmıştır.
 
-Python'da **sort** işlemlerinde **str** tipi kelimeler sıralanırken bazı kelimlerin yanlış sıranlanması, büyük ve küçük  harf çevrimlerinden kaynaklanmaktadır. Bu sorun usStr sınıfı kullanılarak çözülebilir.
+Python'da **sort** işlemlerinde **str** tipi kelimeler sıralanırken bazı kelimlerin yanlış sıranlanması, büyük ve küçük  harf çevrimlerinden kaynaklanmaktadır. Bu sorun uStr sınıfı kullanılarak çözülebilir.
 
 ***Some problems arise when the Python programming language converts letters from different languages to uppercase or lowercase letters. The uStr class was written to solve the problems in capitalization and lowercase conversion.***
 
