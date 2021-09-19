@@ -74,6 +74,10 @@ from ultimate import uStr
 lowerCaseLetters = "abcçdefgğhıijklmnoöprsştuüvyz" # tuple veya list objeside olabilir (can also be a tuple or list object)
 upperCaseLetters = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ" # tuple veya list objeside olabilir (can also be a tuple or list object)
 
+# list or tuple sample Format:
+# lowerCaseLetters = ['a', 'b', 'c', 'ç', 'd', 'e', 'f', 'g', 'ğ', 'h', 'ı', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'ö', 'p', 'r', 's', 'ş', 't', 'u', 'ü', 'v', 'y', 'z']
+# upperCaseLetters = ['A', 'B', 'C', 'Ç', 'D', 'E', 'F', 'G', 'Ğ', 'H', 'I', 'İ', 'J', 'K', 'L', 'M', 'N', 'O', 'Ö', 'P', 'R', 'S', 'Ş', 'T', 'U', 'Ü', 'V', 'Y', 'Z']
+
 sampleSentence = """
 Merhaha istanbul. Bugün günlerden pazar! kalabalık bir şehir burası
 
