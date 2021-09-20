@@ -14,7 +14,7 @@ class uStr:
             lo = tuple(lowerLetters)
             up = tuple(upperLetters)
             if len(up) != len(lo):
-                raise Exception("The alphabet in different lengths!")
+                raise Exception("Uppercase and lowercase list lengths differ!\nBüyük harf ve küçük harf liste uzunlukları farklıdır!")
             else:
                 self.lowerLetters = ("".join(lo)).replace(" ", "").strip()
                 self.upperLetters = ("".join(up)).replace(" ", "").strip()
