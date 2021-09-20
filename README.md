@@ -112,7 +112,7 @@ print(repr(output))
 
    - {'a': 0, 'b': 1, 'c': 2, 'ç': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'ğ': 8, 'h': 9, 'ı': 10, 'i': 11, 'j': 12, 'k': 13, 'l': 14, 'm': 15, 'n': 16, 'o': 17, 'ö': 18, 'p': 19, 'r': 20, 's': 21, 'ş': 22, 't': 23, 'u': 24, 'ü': 25, 'v': 26, 'y': 27, 'z': 28}
 
-5. Yeni Kelime: "fatihcelikporselenpırasa" örneğini alırsak bu kelimenin her karakterini dolaşır. 4. sırada oluşan dict nesnesi için de kelimenin harfine  karşılık gelen sıra numarasını yeni bir listeye gönderir. 
+5. Yeni Kelime: "fatihçelikporselenpırasa" örneğini alırsak bu kelimenin her karakterini dolaşır. 4. sırada oluşan dict nesnesi için de kelimenin harfine  karşılık gelen sıra numarasını yeni bir listeye gönderir. 
 
    - Bu şekilde eşleştirme yapılır: [(6, 'f'), (0, 'a'), (23, 't'), (11, 'i'), (9, 'h'), (3, 'ç'), (5, 'e'), (14, 'l'), (11, 'i'), (13, 'k'), (19, 'p'), (17, 'o'), (20, 'r'), (21, 's'), (5, 'e'), (14, 'l'), (5, 'e'), (16, 'n'), (19, 'p'), (10, 'ı'), (20, 'r'), (0, 'a'), (21, 's'), (0, 'a')]
    - Bu eşleştirme içinde sıra numaraları demet olarak döndürülür:(6, 0, 23, 11, 9, 3, 5, 14, 11, 13, 19, 17, 20, 21, 5, 14, 5, 16, 19, 10, 20, 0, 21, 0)
@@ -133,7 +133,7 @@ print(repr(output))
 
       - ***{'a': 0, 'b': 1, 'c': 2, 'ç': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'ğ': 8, 'h': 9, 'i': 10, 'i': 11, 'j': 12, 'k': 13, 'l': 14, 'm': 15, 'n ': 16, 'o': 17, 'd': 18, 'p': 19, 'r': 20, 's': 21, 'h': 22, 't': 23, 'u': 24, 'ü': 25, 'v': 26, 'y': 27, 'z': 28}***
 
-   5. ***New Word: If we take the example of "fatihcelikporselenpırasa", it loops through every character of this word. It sends the sequence number corresponding to the letter of the word to a new list for the dict object that occurs in the 4th row.***
+   5. ***New Word: If we take the example of "fatihçelikporselenpırasa", it loops through every character of this word. It sends the sequence number corresponding to the letter of the word to a new list for the dict object that occurs in the 4th row.***
 
       - ***This is how pairing is done: [(6, 'f'), (0, 'a'), (23, 't'), (11, 'i'), (9, 'h'), (3, 'ç'), (5, 'e'), (14, 'l'), (11, 'i'), (13, 'k'), (19, 'p'), (17, 'o') '), (20, 'r'), (21, 's'), (5, 'e'), (14, 'l'), (5, 'e'), (16, 'n') , (19, 'p'), (10, 'i'), (20, 'r'), (0, 'a'), (21, 's'), (0, 'a')]***
       - ***In this pairing, sequence numbers are returned as a bunch: (6, 0, 23, 11, 9, 3, 5, 14, 11, 13, 19, 17, 20, 21, 5, 14, 5, 16, 19, 10 , 20, 0, 21, 0)***
