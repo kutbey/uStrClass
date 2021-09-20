@@ -1,17 +1,23 @@
+from typing import Union
+
+AlfabetType = Union[list[str,], tuple[str, ...], str]
+
+
 class uStr:
-    def __init__(self, word: str, lowerLetters: str | list | tuple = None, upperLetters: str | list | tuple = None):
+    def __init__(self, word: str, lowerLetters: AlfabetType = None,
+                 upperLetters: AlfabetType = None):
         self.word = word
         if not lowerLetters and not upperLetters:
             self.lowerLetters = "abcçdefgğhıijklmnoöprsştuüvyz"
             self.upperLetters = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ"
         else:
-            lo = list(lowerLetters.replace(" ", "").strip())
-            up = list(upperLetters.replace(" ", "").strip())
+            lo = tuple(lowerLetters)
+            up = tuple(upperLetters)
             if len(up) != len(lo):
                 raise Exception("The alphabet in different lengths!")
             else:
-                self.lowerLetters = "".join(lo)
-                self.upperLetters = "".join(up)
+                self.lowerLetters = ("".join(lo)).replace(" ", "").strip()
+                self.upperLetters = ("".join(up)).replace(" ", "").strip()
 
     def make_trans_upper(self) -> dict:
         changeTable = str.maketrans(self.lowerLetters, self.upperLetters)
@@ -28,7 +34,14 @@ class uStr:
         return self.word.translate(self.make_trans_lower())
 
     def capitalize(self) -> str:
-        return f"{self.lower()[0].translate(self.make_trans_upper())}{self.lower()[1:]}"
+        i = 0  # first Letter index
+        for w in self.word:
+            if w.isalpha() and (w in self.lowerLetters or w in self.upperLetters):
+                i = self.word.index(w)
+                break
+        newCap = self.lower()
+        newCap = f"{newCap[:i]}{newCap[i].translate(self.make_trans_upper())}{newCap[i + 1:]}"
+        return newCap
 
     def title(self) -> str:
         firstChrIndex = [x + 1 for x in range(len(self.word)) if self.word[x] in (" ", "\n", ".", "!", "?", ":") \
@@ -56,5 +69,3 @@ class uStr:
 
     def __repr__(self):
         return f"ultimateStr({self.word})"
-
-
