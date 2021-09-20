@@ -104,7 +104,7 @@ print(repr(output))
 
 3. Argümanın bütün karakterleri döngü ile gezer. Döngü sırasında, opsiyonel olarak gönderilen küçük harf alfabesi içindeki harfler ile karşılaştırır. Harf ile karakter eşleşiyorsa onu alır ve yeni bir kelime oluşturur.
 
-   - Örnek:  Argüman: "Fatih.!Çelik-Porselen pırasa"   Yeni Kelime: "fatihcelikporselenpırasa"
+   - Örnek:  Argüman: "Fatih.!Çelik-Porselen pırasa"   Yeni Kelime: "fatihçelikporselenpırasa"
 
    - Noktalama işaretlerini ve boşlukları temizleyip hepsini birleştirir.
 
@@ -125,7 +125,7 @@ print(repr(output))
 
    3. ***All characters of the argument are looped through. During the loop, it compares with the letters in the optional lowercase alphabet. If the letter and character match, it takes it and creates a new word.***
 
-      - ***Example: Argument: "Fatih.!Çelik-Porselen pırasa"  New Word: "fatihcelikporselenpırasa"***
+      - ***Example: Argument: "Fatih.!Çelik-Porselen pırasa"  New Word: "fatihçelikporselenpırasa"***
 
       - ***Cleans up punctuation marks and spaces and combines them all.***
 
