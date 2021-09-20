@@ -8,8 +8,8 @@ class uStr:
                  upperLetters: AlfabetType = None):
         self.word = word
         if not lowerLetters and not upperLetters:
-            self.lowerLetters = "abcçdefgğhıijklmnoöprsştuüvyz"
-            self.upperLetters = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ"
+            self.lowerLetters = "aâbcçdefgğhıiîjklmnoöprsştuûüvyz"
+            self.upperLetters = "AÂBCÇDEFGĞHIİÎJKLMNOÖPRSŞTUÛÜVYZ"
         else:
             lo = tuple(lowerLetters)
             up = tuple(upperLetters)
