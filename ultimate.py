@@ -68,4 +68,4 @@ class uStr:
         return self.word
 
     def __repr__(self):
-        return f"ultimateStr({self.word})"
+        return f"uStr({self.word})"
